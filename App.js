@@ -345,14 +345,14 @@ const styles = StyleSheet.create({
     textAlign: 'center'
   },
   subtitleText: {
-    fontSize: 20,
+    fontSize: 16,
     marginBottom: 20,
     marginHorizontal: 15,
     textAlign: 'center',
     color: "red"
   },
   infoText: {
-    fontSize: 16,
+    fontSize: 20,
     marginBottom: 20,
     marginHorizontal: 15,
     textAlign: 'center',
