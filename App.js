@@ -243,6 +243,9 @@ export default class App extends Component {
                 else if (classname === "normal_skin.zip") {
                   classname = "Normal (no disease)";
                 }
+                else if (classname.substr(classname.length - 5) === ".zip") {
+                  classname = classname.substr(0, classname.length - 5);
+                }
                 else {
                   classname = capCase(classname);
                 }
